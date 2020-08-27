@@ -1,19 +1,19 @@
 # Machine-Coding-Round
 
-Problem Definition: <br/>
+Problem Definition: <br/><br/>
 Design a Ride sharing application where drivers can offer rides (origin, destination, no of seats), any rider
 can request rides (origin, destination, no of seats). 
 There is an algo to choose to calculate Ride amount charged for a given ride based on distance and no of
 seats <br/>
-1. When the ride closes, show the amount charged to the rider. <br/>
-2. Ride amount if No of seats >= 2 : No of kilometers * No of seats * 0.75 * Amount Charged per KM <br/>
-3. Ride amount if No of seats = 1 : No of kilometers * Amount Charged per KM <br/>
+● When the ride closes, show the amount charged to the rider. <br/>
+● Ride amount if No of seats >= 2 : No of kilometers * No of seats * 0.75 * Amount Charged per KM <br/>
+● Ride amount if No of seats = 1 : No of kilometers * Amount Charged per KM <br/>
 The program should take as input two or more drivers and a set of riders requesting rides. Multiple rides
 can happen simultaneously. <br/> <br/>
 Assumptions : <br/>
-1. Assume Amount charged per KM = 20 <br/>
-2. No of Kilometers = destination - origin <br/>
-3. All values are Integer <br/> <br/>
+● Assume Amount charged per KM = 20 <br/>
+● No of Kilometers = destination - origin <br/>
+● All values are Integer <br/> <br/>
 Test Case: <br/>
 A requesting for ride R1 <br/>
 INPUT: A requests 50, 60, 1, <br/>
